@@ -5,6 +5,9 @@ body {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
   width: 100vw;
+  background-image: url("../images/bg-main-mobile.png");
+  background-repeat: repeat-x;
+
   .page-container {
     .card-box {
       display: flex;
@@ -19,7 +22,6 @@ body {
         background-repeat: no-repeat;
         width: 400px;
         height: 220px;
-        border: transparent;
       }
       .front {
         background-image: url("../images/bg-card-front.png");
@@ -28,7 +30,7 @@ body {
         }
         #card-number {
           letter-spacing: 6px;
-          font-size: 1.3em;
+          font-size: 1.1em;
           margin-bottom: -50px;
         }
         #card-name {
@@ -43,7 +45,7 @@ body {
     }
     .form {
       font-family: "Space Grotesk", sans-serif;
-      font-size: 1.3em;
+      font-size: 1.1em;
       text-transform: uppercase;
       color: $vdrk-violet;
       .button {
@@ -69,6 +71,9 @@ body {
 @media (min-width: 900px) {
   body {
     overflow-x: hidden;
+    background-image: url("../images/bg-main-desktop.png");
+    background-repeat: no-repeat;
+
     .page-container {
       .card-box {
         margin-top: 100px;
